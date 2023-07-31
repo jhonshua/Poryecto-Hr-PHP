@@ -1,0 +1,1 @@
+2021-10-03 00:16:44: imagepng(C:\laragon\www\sync_git\hrsystem\storage/repositorio/46/19/timbrado/archs_qr/77EBDB7B-B9DC-40B9-9934-1750E8A913AC.png): failed to open stream: No such file or directory

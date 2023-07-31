@@ -1,0 +1,15 @@
+/node_modules
+/vendor
+/public/storage/*
+/storage/app/*
+/storage/framework/*
+/bootstrap/*
+composer.lock
+.editorconfig
+.env
+.env.example
+.composer.lock
+.idea
+.DS_Store
+public/repositorio
+public/storage

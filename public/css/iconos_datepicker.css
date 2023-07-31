@@ -1,0 +1,46 @@
+@font-face  {
+    font-family: "Glyphicons Medianos";
+    src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot'); 
+    src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format("embedded-opentype"), 
+    url('../fonts/glyphicons/glyphicons-halflings-regular.woff2') format("woff2"),
+    url('../fonts/glyphicons/glyphicons-halflings-regular.woff') format("woff"), 
+    url('../fonts/glyphicons/glyphicons-halflings-regular.ttf') format("truetype"),
+    url('../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format("svg")
+}
+
+
+.glyphicon {
+position: relative;
+top: 1px;
+display: inline-block;
+font-family: 'Glyphicons Medianos';
+font-style: normal;
+font-weight: normal;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-time:before {
+content: "\e023";
+}
+
+.glyphicon-chevron-left:before {
+content: "\e079";
+}
+
+.glyphicon-chevron-right:before {
+content: "\e080";
+}
+
+.glyphicon-chevron-up:before {
+content: "\e113";
+}
+
+.glyphicon-chevron-down:before {
+content: "\e114";
+}
+
+.glyphicon-calendar:before {
+content: "\e109";
+}

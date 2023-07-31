@@ -1,0 +1,143 @@
+.cancel-icon {
+    background-image: url("../img/icono-borrar.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.agregar-icon {
+    background-image: url("../img/icono-agregar.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.editar-icon {
+    background-image: url("../img/icono-editar.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.editar-icon-black{
+    background-image: url("../img/icono-editar-black.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.ver-icon {
+    background-image: url("../img/ver-documentos-empleado.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.cancelar-icon {
+    background-image: url("../img/icono-borrar.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.eliminar-icon {
+    background-image: url("../img/eliminar.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.descargar-icon {
+    background-image: url("../img/icono-descargar.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.descargar-icon-black{
+    background-image: url("../img/icono-descargar-black.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.key-icon {
+    background-image: url("../img/permisos.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.orden-compra-icon{
+    background-image: url("../img/icono-opciones.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}
+
+.impresora-icon{
+    background-image: url("../img/impresora-timbrado.png");
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: white;
+}

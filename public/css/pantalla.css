@@ -1,0 +1,286 @@
+body {
+	overflow: hidden;
+	background-color: #000;
+}
+
+@font-face {
+    font-family: 'Blanch'; /*a name to be used later*/
+    src: url('https://www.hrsystem.com.mx/reportes_graficos/public/assets/fonts/Blanch/BLANCH_CAPS.otf'); /*URL to font*/
+}
+
+.titulo{
+	font-family: 'Blanch';
+	font-size: 24px;
+	line-height: 1px;
+	padding-top: 10px;
+}
+
+#barra-top {
+	height: 50px;
+	background-color: #f7c90b;
+	box-shadow: 0 0 0 #e9bc01;
+}
+
+#logo {
+	margin-top:10px;
+	height: 30px;
+	
+}
+
+#fecha {
+	position: absolute;
+	bottom: 13px;
+	right: 15px;
+	font-size: .8rem;
+}
+
+#panel11{
+	height: 175px;
+}
+
+.header-uno {
+	background-color: #FFF;
+	border-bottom: 0px;
+	padding-bottom: 2px;
+	padding-top:2px;
+	
+}
+
+.header-uno.h2{
+	margin-left: 20px;
+}
+
+.hr-bottom {
+	background-color: #FFF;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	width: 95%;
+}
+
+.card {
+	box-shadow: 0 3px 4px #ccc;
+}
+
+#avisos {
+	margin-left: 20px;
+	padding-top: 0px;
+}
+
+#avisos h5 {
+	font-size:.8rem;
+	font-weight: 900;
+}
+
+.texto-aviso{
+	font-size: .8rem;
+}
+.circle {
+	width: 75px;
+	margin: 3px 3px 10px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.circle canvas {
+	vertical-align: top;
+}
+
+.circle strong {
+	position: absolute;
+	top: 13px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+}
+
+.circle strong i {
+	font-style: normal;
+	font-size: 0.2em;
+	font-weight: normal;
+}
+
+.circle span {
+	display: block;
+	color: #aaa;
+	margin-top: 12px;
+}
+
+
+.card-body {
+	padding-top: 0px;
+}
+
+#panel-avisos{
+	padding-right: 0px;
+}
+#panel-dos{
+	padding-left:5px;
+}
+
+.salidas .salida {
+	font-size: 14px;
+}
+
+
+/* @end */
+			.flip {
+					-webkit-perspective: 800;
+					perspective: 800;
+					position: relative;
+				 /*text-align: center;*/
+				}
+				.flip .card.flipped {
+						-webkit-transform: rotatey(-180deg);
+						transform: rotatey(-180deg);
+				}
+				.flip .card {
+						height: 100%;
+						-webkit-transform-style: preserve-3d;
+						-webkit-transition: 0.5s;
+						transform-style: preserve-3d;
+						transition: 0.5s;
+				}
+				.flip .card .face {
+						-webkit-backface-visibility: hidden ;
+						backface-visibility: hidden ;
+						z-index: 2;
+				}
+				.flip .card .front {
+						position: absolute;
+						width: 100%;
+						z-index: 1;
+				}
+				.flip .card .back {
+						-webkit-transform: rotatey(-180deg);
+						transform: rotatey(-180deg);
+				}
+				.inner{margin:0px !important;}
+
+
+
+				.jumbotron {
+					height: 80vh;
+					background-size: cover;
+					margin:0;
+				}
+
+				#avisosC.card-body {
+					padding: 0.25rem;   
+				}
+
+				#panel1 {
+					height: 91vh;
+					overflow: hidden;
+				}
+
+				#panel1 h5 {
+					font-size: 16px;
+					margin-bottom: 0;
+				}
+
+				#panel2 {
+					height: 69.7vh;
+					overflow: hidden;        	
+				}
+				
+				.img-aviso{
+					height: 68vh;
+					width: 100%;
+					/*height: auto;*/
+				}
+
+				.card-cumpleanios{
+					overflow: hidden;
+				}
+
+				#card-cumpleanios{
+					padding: 5px;
+				}
+
+				#lista-cumpleanios{
+					height: 170px;
+					overflow-y: scroll;
+					overflow-x: hidden;
+					width: 100%;
+					margin: auto;
+				}
+
+				.row-cumple {
+					margin-bottom: 15px;	
+					height: 30px;
+					box-shadow: 0px 4px 3px #ccc;
+					margin: 20px 0;
+				}
+
+
+				.back-cumple{
+					height: 40px;
+					margin: -10px auto;
+					background: #e9bc00;
+					padding: 2px;
+					text-align: center;
+					font-weight: 900;
+					color: #fff;
+					
+					position:relative;
+				}
+				
+				.sb1:before {
+					content: "";
+					width: 0px;
+					height: 0px;
+					position: absolute;
+					border-left: 5px solid #e9bc00;
+					border-right: 5px solid transparent;
+					border-top: 5px solid #e9bc00;
+					border-bottom: 5px solid transparent;
+					right: -10px;
+					top: 0px;
+				}
+				
+				.dia {
+					line-height: 10px;
+					font-size: .8rem;
+				}
+				
+				.mes {
+					display:block;
+					line-height: 0px;
+					font-size: .6rem;
+				}
+
+				.img-persona {
+					border-radius: 50%;
+					/*background-repeat: no-repeat;*/
+					/*background-position: top center;*/
+					/*background-size: 100% !important;*/
+					height: 38px;
+					margin-top: -10px;
+					margin-left: -25px;
+					overflow: hidden;
+					width: 38px !important;
+				}
+
+				.img-persona img {
+					width: 100%;
+				}
+	
+				.nombre-cumpleanios{
+					font-size: 1rem;
+					font-weight: 900;
+				}
+
+				.nombre-interno {
+					font-size: .65rem;
+					font-weight:400;
+				}
+
+			.img-cumpleanios{
+					width: 90px;
+			}
+			 .img-felicidades{
+	width:90px;
+			 }
